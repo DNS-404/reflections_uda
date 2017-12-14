@@ -1,19 +1,1 @@
-Q- How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-Ans- This is important so that we can view any of the previous versions of file to-
-1.) Get better understanding of how the software evolved.
-2.) So that we can get back to the previous version of the software in case we mess something up with the new version.
-
-Q- How can you use the commands git log and git diff to view the history of files?
-
-Ans- In git, git log is used to view the history of all the commits that we did earlier with the commit id, date, time and message along with the commit.
-git diff "1st commit id" "2nd commit id" - displays the differences between the two commits, The lines added are shown in green color and the lines removed are shown in red color.
-
-Q- How might using version control make you more confident to make changes that could break something?
-
-Ans- Using version control makes us more confident to make changes that could break something because in that case, if we introduce a bug at some point then we can easily check it out using "git checkout <commit id>".
-In addition to this, usually a programmer who don't use version control would make really small changes to his code after it starts working. But by using version control, he has the freedom to do as much changes as he wants with his code.
-
-Q- Now that you have your workspace set up, what do you want to try using Git for?
-
-Ans- Well, I don't really know. As of right now, I'm learning git in order to start using github.. basically so that I can do google summer of code in 2018.
