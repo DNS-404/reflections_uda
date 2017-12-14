@@ -1,0 +1,15 @@
+Ques - What happens when you initialize a repository? Why do you need to do it?
+Ans- Git starts tracking all the changes that we make to a file after initializing a repository. It is important in order to track all the changes done to it.
+
+Ques - How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans - We are supposed to make a commit whenever a meaningful change is done. Git gives us an option of adding one or few files to the staging area. This helps in organizing things in a better way.
+
+Ques - How can you use the staging area to make sure you have one commit per logical change?
+Ans- You can add multiple files to the staging area once you feel like a logical change has been done. You can even see the changes between the staging area and working directory by using "git diff" OR changed between staging area and repository by using "git diff --staged". Now, you can commit those files to the repository using "git commit".
+
+Ques- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans- Branches are basically used when we want to make some extra change to our software like adding an experimental feature or adding a new language support. Now, we don't want these changes on the master branch(created by default) because these features are experimental and might ruin the main code. Hence we create separate branches to keep track of these type of changes.
+You can think about it as "context switching". Whenever you want to do something new with your code that is different from it's main purpose, create a new branch!
+Master branch - The core branch with main code. It should never break.
+Then you can create a "development branch". More examples - "Experimental branch".
+Common practice is to make a new branch whenever you want to add a new feature or fix a bug.
