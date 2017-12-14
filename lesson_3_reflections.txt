@@ -2,4 +2,4 @@ When would you want to create a remote repository rather than keeping all your w
 Ans- A remote repository is really useful while working on a group project.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-Ans- Pulling changes manually is much better than having git do it automatically because manually we can determing when is the right time to pull changes. We might want to do it after making a significant change in our code but git won't be able to determine that. This can cause unnecessary problems.
+Ans- Pulling changes manually is much better than having git do it automatically because manually we can determing when is the right time to pull changes. We might want to do it after making a significant change in our code but git won't be able to determine that. This can cause some unnecessary problems.
