@@ -1,7 +1,7 @@
 Ques - What happens when you initialize a repository? Why do you need to do it?
 Ans- Git starts tracking all the changes that we make to a file after initializing a repository. It is important in order to track all the changes done to it.
 
-Ques - How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ques - How is the staging area different from the working directory & the repository? What value do you think it offers?
 Ans - We are supposed to make a commit whenever a meaningful change is done. Git gives us an option of adding one or few files to the staging area. This helps in organizing things in a better way.
 
 Ques - How can you use the staging area to make sure you have one commit per logical change?
